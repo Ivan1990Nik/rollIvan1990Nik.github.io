@@ -1,53 +1,157 @@
-body {
-color: aliceblue;
-}
-
 .wraper {
     min-height: 100%;
     width: 100%;
     overflow: hidden;
 }
+
+.header__header {
+    padding: 15px 0;
+}
+
 .header__top {
-    height: 40px;
-    background-color: rgba(0, 0, 0, 0.562);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45px;
+    background-color: #0000008f;
 }
 
 .container {
     max-width: 1300px;
     padding: 0px 15px;
     margin: 0 auto;
-    height: 100%; 
-    background-color: bisque;
+    height: 100%;
     background-size: 1000px;
 }
 
+.header__logo {
+    margin-left: 10px;
+}
+
+.header__menu {
+    display: flex;
+    color: #ffffffbe;
+}
+
+.header__item {
+    transition: all 0.3s;
+    margin-right: 10px;
+    border-radius: 30px;
+    padding: 5px 10px;
+    background-color: #00ffff2d;
+}
+
+.header__item:hover {
+    transition: all 0.3s;
+    background-color: rgba(255, 0, 13, 0.336);
+
+}
+
+.header__user-bg {
+    padding: 25px;
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+    font-size: 28px;
+    background-color: rgba(73, 111, 146, 0.178);
+}
+
+.header__user-tel span {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.header__user-tel {
+    font-weight: 900;
+    margin-right: 30px;
+    font-size: 45px;
+}
+
+.header__address {}
+
+
+
 .header__img {
-    width: 400px;
+    width: 500px;
 }
 
 .header__inner {
+    align-items: center;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main__inner {
+    /* background-image: url("./images/kan.png");  */
     display: flex;
     justify-content: center;
 }
-.main__inner {
-display: flex;
-justify-content: center;
-}
 
 .main__img {
-
-    border-radius: 50px;
-    background: rgba(192, 153, 153, 0.274);
-    box-shadow: 30px 5px 5px rgba(148, 111, 111, 0.13);
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+    height: 65%;
+border-radius: 40px;
+/* background-image: url("./images/white-leather.png"); */
 }
 
+
+
 .main__items {
-   
-    margin: 50px 50px 50px;
+/*     -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222); */
+    margin: 10px 10px 10px;
     border-radius: 25px;
     padding: 20px;
-    width: 220px;
-    height: 350px;
+    width: 200px;
+    height: 250px;
     text-align: center;
-   background-color: rgba(112, 120, 128, 0.795);
+    border: solid 1px black;
+}
+
+.main__price-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__header {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 2px;
+}
+
+.main__title {
+    margin-bottom: 15px;
+}
+
+
+
+.main__price-item {
+/*     background-color: #ffffff46; */
+padding: 5px;
+font-weight: 100;
+border-radius: 10px;
+}
+
+.main__quantity {
+    margin-bottom: 10px;
+}
+
+.main__price-icon {
+display: flex;
+
+}
+.main__price {}
+
+.main__button {
+margin-right: 5px;
+border-radius: 30px;
+background-color: #da084731;
+}
+.main__button:hover {
+font-weight: 500;
+background-color: #da084781;
 }
