@@ -73,45 +73,52 @@
 
 
 .header__img {
-    width: 500px;
+
+    border-radius: 70px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.205) 0%, rgba(110, 87, 10, 0.363) 35%, rgba(255, 8, 0, 0.322) 100%);
 }
 
 .header__inner {
     align-items: center;
-    padding: 40px;
+    padding-top: 90px;
     display: flex;
     justify-content: space-around;
 }
 
 .main__inner {
-    /* background-image: url("./images/kan.png");  */
     display: flex;
     justify-content: center;
 }
 
 .main__img {
-    -webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter: drop-shadow(5px 5px 5px #222);
-    height: 65%;
-border-radius: 40px;
-/* background-image: url("./images/white-leather.png"); */
+    background-image: url("./bagraund/bag.png");
+    background-size: 80px;
+    background-color: rgba(98, 109, 109, 0.055);
+    height: 50%;
+    border-radius: 10px;
 }
 
 
 
 .main__items {
-/*     -webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter: drop-shadow(5px 5px 5px #222); */
-    margin: 10px 10px 10px;
-    border-radius: 25px;
-    padding: 20px;
-    width: 200px;
-    height: 250px;
-    text-align: center;
-    border: solid 1px black;
+    margin: 3px;
+    margin-top: 40px;
+    padding: 15px;
+    height: 350px;
+    border-radius: 40px;
+    border-right: solid 2px rgba(202, 195, 200, 0.76);
+    border-left: solid 2px rgba(172, 163, 169, 0.76);
+    transition: all 0.3s;
+}
+
+.main__items:hover {
+    transition: all 0.3s;
+    scale: 1.01;
+    box-shadow: 10px 5px 5px rgba(80, 34, 34, 0.274);
 }
 
 .main__price-list {
+    margin-top: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -120,38 +127,43 @@ border-radius: 40px;
 .main__header {
     font-size: 20px;
     font-weight: 900;
-    margin-bottom: 2px;
+    margin-bottom: 20px;
 }
 
 .main__title {
     margin-bottom: 15px;
+    color: rgba(66, 66, 66, 0.801);
 }
 
 
 
-.main__price-item {
-/*     background-color: #ffffff46; */
-padding: 5px;
-font-weight: 100;
-border-radius: 10px;
-}
+.main__price-item {}
 
 .main__quantity {
-    margin-bottom: 10px;
+    /*     margin-bottom: 10px; */
+    color: rgba(66, 66, 66, 0.801);
 }
 
 .main__price-icon {
-display: flex;
+    display: flex;
 
 }
-.main__price {}
+
+.main__price {
+    font-weight: 900;
+}
 
 .main__button {
-margin-right: 5px;
-border-radius: 30px;
-background-color: #da084731;
+    color: rgb(255, 255, 255);
+    font-weight: 9400;
+    font-size: 22px;
+    width: 130px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #da084759;
 }
+
 .main__button:hover {
-font-weight: 500;
-background-color: #da084781;
+    font-weight: 500;
+    background-color: #da084781;
 }
